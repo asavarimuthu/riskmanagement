@@ -3,6 +3,7 @@ using { BusinessPartnerA2X } from './external/BusinessPartnerA2X.cds';
 using { com.sap.RiskManagement as my } from '../db/schema';
 
 @path : '/service/RiskManagement'
+
 service RiskManagementService
 {
     annotate Mitigations with @restrict :
